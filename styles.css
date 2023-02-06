@@ -1,0 +1,42 @@
+.big-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.firstbox{
+    background-color: #1F2937;
+}
+
+.headerbox{
+    display:flex;  
+    background-color: aqua;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+.small{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-main{
+    background-color: red;
+    margin-left: 70px;
+    margin-right: 70px;
+    display:flex;
+    flex: 1;
+}
+
+.tright{
+    background-color: gray;
+    flex:1;
+}
+
+.tleft{
+    flex:1;
+}
