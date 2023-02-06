@@ -10,17 +10,25 @@
 
 .headerbox{
     display:flex;  
+    justify-content: space-between;
     background-color: aqua;
+    height: 90px;
+    margin-left: 70px;
+    padding-top: 6px;
+    
 }
 
 ul{
     display: flex;
-    list-style: none;
+    list-style-type: none;
     gap: 8px;
+    background-color: green;
+    margin-top: 0;
+    margin-right: 70px;
 }
 
 .small{
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
 }
 
@@ -35,8 +43,70 @@ ul{
 .tright{
     background-color: gray;
     flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tleft{
+    display:flex;
+    flex-direction: column;
     flex:1;
+    padding: 16px;
+    
 }
+
+p{
+    margin: 0;
+}
+.button{
+    display: flex;
+    align-self: flex-end;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.mboxes{
+    background-color: orange;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 36px;
+    width: 125px;
+   
+
+}
+
+.middlebox{
+    background-color: pink;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.empty{
+    width: 125px;
+    height: 125px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.random{
+    padding:16px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.mid{
+    display:flex;
+    text-align: center;
+    background-color: green;
+    padding: 4px;
+}
+
+    
