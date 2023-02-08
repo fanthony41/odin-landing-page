@@ -59,16 +59,24 @@ ul{
 p{
     margin: 0;
 }
-.button{
+button{
     display: flex;
-    align-self: flex-end;
-    margin-left: 20px;
-    margin-top: 20px;
-    background-color: red;
+    align-self: flex-start;
+    background-color: #3882F6;
+    
+  width: 75px;
+  border-radius: 6px;
+  
+
+}
+
+.button{
+    line-height: initial;
+    text-align:  center;
 }
 
 .mboxes{
-    background-color: orange;
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -79,19 +87,20 @@ p{
 }
 
 .middlebox{
-    background-color: pink;
+    
     display: flex;
     flex-direction:  row;
     justify-content: space-between;
     margin-left: 125px;
     margin-right: 125px;
+    padding-bottom: 25px;
 }
 
 .empty{
     width: 125px;
     height: 125px;
     border-radius: 12px;
-    border: 2px solid black;
+    border: 2px solid #3882F6;
 }
 
 .random{
@@ -105,8 +114,37 @@ p{
 .mid{
     display:flex;
     text-align: center;
-    background-color: green;
+    font-size: 14px;
     padding: 4px;
 }
 
+.secondbox{
+    
+}
+
+.thirdbox{
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:  160px;
+    padding-right: 160px;
+    padding-top: 70px;
+    background-color: #E5E7EB;
+
+}
+
+.third{
+    font-size: 24px;
+    font-family: 'light italic';
+    color: #1F2937;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: 550;
+    display: flex;
+    align-self: flex-end;
+}
     
