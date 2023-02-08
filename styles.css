@@ -11,10 +11,10 @@
 .headerbox{
     display:flex;  
     justify-content: space-between;
-    background-color: aqua;
     height: 90px;
     margin-left: 70px;
     padding-top: 6px;
+    color: #E5E7EB
     
 }
 
@@ -22,7 +22,6 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 8px;
-    background-color: green;
     margin-top: 0;
     margin-right: 70px;
 }
@@ -33,7 +32,6 @@ ul{
 }
 
 .top-main{
-    background-color: red;
     margin-left: 70px;
     margin-right: 70px;
     display:flex;
@@ -80,7 +78,7 @@ button{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 36px;
+    margin-right: 0px;
     width: 125px;
    
 
@@ -94,6 +92,7 @@ button{
     margin-left: 125px;
     margin-right: 125px;
     padding-bottom: 25px;
+    flex-grow: 0;
 }
 
 .empty{
@@ -147,4 +146,38 @@ button{
     display: flex;
     align-self: flex-end;
 }
+
+.fourth{
+    display: flex;
+ 
+    flex-direction: row;
+    background-color: #3882F6;
+    margin: 75px;
+    padding: 25px 75px;
+    color: #F9FAF8
+}
+
+.fleft{
+   
+}
+.fright{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow:1;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:  #E5E7EB;
+    font-size: 14px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 75px;
+}
+
+
     
